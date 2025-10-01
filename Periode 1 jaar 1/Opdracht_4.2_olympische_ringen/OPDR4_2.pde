@@ -1,0 +1,17 @@
+size(400,400);
+int w = 50;
+int h = 50;
+int x = 150;
+int y = 200;
+noFill();
+strokeWeight(3);
+stroke(0,0,255);
+ellipse(x,y,w,h);
+stroke(0,0,0);
+ellipse(x+54,y,w,h);
+stroke(255,0,0);
+ellipse(x+108,y,w,h);
+stroke(255,255,0);
+ellipse(x+27,y+25,w,h);
+stroke(0,255,0);
+ellipse(x+81,y+25,w,h);
