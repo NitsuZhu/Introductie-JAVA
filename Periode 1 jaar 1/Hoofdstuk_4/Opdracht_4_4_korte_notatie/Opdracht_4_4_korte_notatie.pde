@@ -1,0 +1,15 @@
+int a = 11;
+a += 11;
+a *= 11;
+a -= 11;
+println(a);
+int b = 10;
+b += 1;
+b *= 1;
+b -= 91;
+println(b);
+int c = 91;
+c += 41;
+c *= 651;
+c -= 111;
+println(c);

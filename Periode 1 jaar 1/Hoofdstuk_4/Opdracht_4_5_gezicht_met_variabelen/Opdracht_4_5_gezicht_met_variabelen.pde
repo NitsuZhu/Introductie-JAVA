@@ -1,0 +1,10 @@
+size(1000,1000);
+int x = 500;
+int y = 300;
+ellipse(x+200,y,300,300);
+ellipse(x+150,y-50,30,50);
+ellipse(x+250,y-50,30,50);
+noFill();
+arc(x+150, y-50, 80, 80, PI, 2*PI);
+arc(x+250, y-50, 80, 80, PI, 2*PI);
+arc(x+200, y+75, 200, 80, 0, PI);
